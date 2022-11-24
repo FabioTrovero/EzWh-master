@@ -1,0 +1,472 @@
+Server listening at http://localhost:3001
+
+
+  Test return Orders APIs
+CHIAMATA API INTERNAL ORDERS
+    ✔ Adding a new internal order with params [201,2021/11/29 09:33,[object Object],[object Object],1] (330ms)
+CHIAMATA API INTERNAL ORDERS
+    ✔ Adding a new internal order with params [422,/11/29 09:33,[object Object],[object Object],1]
+CHIAMATA API INTERNAL ORDERS
+    ✔ Adding a new internal order with params [422]
+CHIAMATA API INTERNAL ORDERS
+    ✔ Adding a new internal order with params [422,2021/11/29 09:33,[object Object],[object Object],1]
+CHIAMATA API INTERNAL ORDERS
+    ✔ Adding a new internal order with params [422,2021/11/29 09:33,[object Object],[object Object],-1]
+CHIAMATA API INTERNAL ORDERS
+    ✔ Adding a new internal order with params [422,2021/11/29 09:33,[object Object],[object Object],1]
+    ✔ Getting return Orders with params]
+    ✔ Getting internal Orders ]
+    ✔ Getting internal Orders with params]
+    ✔ Getting internal Order with params [200,1]
+    ✔ Getting internal Order with params [200,2]
+404
+    ✔ Getting internal Order with params [422,aaa]
+404
+    ✔ Getting internal Order with params [404,100]
+    ✔ modify Internal Order
+    ✔ modify Internal Order
+    ✔ modify Internal Order
+    ✔ modify Internal Order
+    ✔ modify Internal Order
+    ✔ modify Internal Order
+    ✔ Deleting Internal Order
+    ✔ Deleting Internal Order
+    ✔ Deleting Internal Order
+    ✔ Deleting Internal Order
+
+  Test return Orders APIs
+201
+    ✔ Adding a new return order with params [201,2021/11/29 09:33,[object Object],[object Object],1]
+{ err: 404 }
+404
+    ✔ Adding a new return order with params [404,2021/11/29 09:33,[object Object],[object Object],56]
+422
+    ✔ Adding a new return order with params [422,/11/29 09:33,[object Object],[object Object],1]
+422
+    ✔ Adding a new return order with params [422,2021/11/29 09:33,[object Object],[object Object],1]
+422
+    ✔ Adding a new return order with params [422,2021/11/29 09:33,[object Object],[object Object],1]
+422
+    ✔ Adding a new return order with params [422,2021/11/29 09:33]
+422
+    ✔ Adding a new return order with params [422,]
+    ✔ Getting return Orders with params [200]
+200
+    ✔ Getting return Order with params [200,1]
+404
+404
+404
+    ✔ Getting return Order with params [404,200]
+422
+    ✔ Getting return Order with params [422,aaa]
+404
+404
+    ✔ Deleting Return Order with params [204,1]
+    ✔ Deleting Return Order with params [422,aaa]
+    ✔ Deleting Return Order with params [422,67]
+
+  test Item API
+undefined
+entra
+    ✔ adding a new item1
+    ✔ adding a new item2
+    ✔ adding a new item3
+    ✔ adding a new item4
+    ✔ adding a new item5
+    ✔ adding a new item6
+    ✔ adding a new item7
+    ✔ adding a new item8
+    ✔ adding a new item9
+    ✔ adding a new item10
+    ✔ adding a new item11
+    ✔ adding a new item12
+undefined
+entra
+undefined
+entra
+undefined
+entra
+undefined
+entra
+    ✔ getting all Item
+undefined
+entra
+{
+  ID: 1,
+  DESCRIPTION: 'description1',
+  PRICE: 9.99,
+  SKUID: 1,
+  SUPPLIERID: 4
+}
+200
+200
+    ✔ getting single Item1
+undefined
+entra
+undefined
+entra
+ERRORE404
+404
+    ✔ getting single Item2
+undefined
+entra
+undefined
+entra
+ERRORE404
+422
+    ✔ getting single Item3
+undefined
+entra
+422
+    ✔ getting single Item4
+undefined
+entra
+undefined
+entra
+ERRORE404
+404
+    ✔ getting single Item5
+undefined
+entra
+422
+    ✔ getting single Item6
+undefined
+entra
+ERRORE404
+undefined
+entra
+422
+    ✔ getting single Item7
+undefined
+entra
+{
+  ID: 1,
+  DESCRIPTION: 'description',
+  PRICE: 45,
+  SKUID: 1,
+  SUPPLIERID: 4
+}
+    ✔ modifing Item data1
+undefined
+entra
+undefined
+entra
+{ err: 404 }
+    ✔ modifing Item data2
+undefined
+entra
+    ✔ modifing Item data3
+undefined
+entra
+    ✔ modifing Item data4
+undefined
+entra
+    ✔ modifing Item data5
+undefined
+entra
+{ err: 404 }
+undefined
+entra
+undefined
+entra
+{ err: 404 }
+    ✔ modifing Item data6
+undefined
+entra
+undefined
+entra
+{ err: 404 }
+    ✔ modifing Item data7
+undefined
+entra
+undefined
+entra
+{ err: 404 }
+    ✔ modifing Item data8
+undefined
+entra
+    ✔ modifing Item data9
+undefined
+entra
+    ✔ modifing Item data10
+undefined
+entra
+{
+  ID: 1,
+  DESCRIPTION: 'description',
+  PRICE: 45,
+  SKUID: 1,
+  SUPPLIERID: 4
+}
+    ✔ deleting Item1 (54ms)
+undefined
+entra
+undefined
+entra
+    ✔ deleting Item2
+undefined
+entra
+undefined
+entra
+    ✔ deleting Item3
+undefined
+entra
+undefined
+entra
+    ✔ deleting Item4
+undefined
+entra
+undefined
+entra
+    ✔ deleting Item5
+undefined
+entra
+undefined
+entra
+    ✔ deleting Item6
+undefined
+entra
+undefined
+entra
+    ✔ deleting Item7
+
+  TEST POSITION API
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ adding a new Position
+    ✔ getting all Positions
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing Position data
+    ✔ modifing positionID of Position
+    ✔ modifing positionID of Position
+    ✔ modifing positionID of Position
+    ✔ modifing positionID of Position
+    ✔ modifing positionID of Position
+    ✔ modifing positionID of Position
+    ✔ deleting Position
+    ✔ deleting Position
+    ✔ deleting Position
+
+  Test restock Orders API
+    ✔ Adding a new restock order with params
+    ✔ Adding a new restock order with params
+    ✔ Adding a new restock order with params
+    ✔ Adding a new restock order with params
+    ✔ Adding a new restock order with params
+    ✔ Adding a new restock order with params
+    ✔ Getting restock Order in state issued with params [200]
+    ✔ Getting restock Orders]
+    ✔ Getting restock Orders by Id
+{ err: 404 }
+    ✔ Getting restock Orders by Id
+    ✔ Getting restock Orders by Id
+[
+  { SKUId: 1, itemId: 1, rfid: '12345678901234567890123456789016' },
+  { SKUId: 1, itemId: 1, rfid: '12345678901234567890123456789017' }
+]
+    ✔ Getting sku items to be returned of a restock order, given its id
+{ err: 404 }
+{ err: 404 }
+    ✔ Getting sku items to be returned of a restock order, given its id
+{ err: 404 }
+    ✔ Getting sku items to be returned of a restock order, given its id
+    ✔ Modify state of a restock order with params [200,1,COMPLETEDRETURN]
+    ✔ Modify state of a restock order with params [422,aaa,COMPLETEDRETURN]
+    ✔ Modify state of a restock order with params [422,aaa,COMPLERETURN]
+{ err: 404 }
+    ✔ Modify state of a restock order with params [404,100,ISSUED]
+{ err: 404 }
+    ✔ Adding restock order Items with params [404,100,[object Object],[object Object],no restock order associated to id]
+    ✔ Adding restock order Items with params [422,aaa,[object Object],[object Object],validation of id failed or restock order state != DELIVERED]
+422
+    ✔ Adding restock order Items with params [422,1,[object Object],[object Object],validation of id failed or restock order state != DELIVERED]
+    ✔ Modify state of a restock order with params [200,1,DELIVERED]
+422
+    ✔ Adding restock order Items with params [422,1,[object Object],[object Object]]
+{ err: 404 }
+    ✔ Adding restock order TransportNote with params [404,100,[object Object],no restock order associated to id,1]
+    ✔ Adding restock order TransportNote with params [422,aaa,[object Object],validation of id failed or restock order state != DELIVERY,1]
+    ✔ Adding restock order Items with params [200,1,[object Object],[object Object],DELIVERED]
+    ✔ Adding restock order TransportNote with params [200,1,[object Object],0]
+422
+    ✔ Adding restock order TransportNote with params [422,1,[object Object],validation of id failed or restock order state != DELIVERY]
+    ✔ Modify state of a restock order with params [200,1,DELIVERY]
+{ err: 404 }
+    ✔ Deleting Return Order with params [422,8]
+    ✔ Deleting Return Order with params [204,1]
+{ err: 404 }
+    ✔ Deleting Return Order with params [422,abc]
+
+  TEST SKU API
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ getting all SKU
+    ✔ getting single SKU
+{ err: 404 }
+    ✔ getting single SKU
+{ err: 404 }
+    ✔ getting single SKU
+    ✔ getting single SKU
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU position
+    ✔ modifing SKU position
+    ✔ modifing SKU position
+    ✔ modifing SKU position
+    ✔ modifing SKU position
+    ✔ modifing SKU position
+    ✔ modifing SKU position
+    ✔ deleting SKU
+    ✔ deleting SKU
+    ✔ deleting SKU
+
+  TEST SKUITEM API
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ adding a new SKU
+    ✔ getting all SKU
+    ✔ get SKU by RFID
+    ✔ get SKU by RFID
+    ✔ get SKU by RFID
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ modifing SKU data
+    ✔ deleting SKUItem
+    ✔ deleting SKUItem
+    ✔ deleting SKUItem
+    ✔ get SKU Item by SKUId
+    ✔ get SKU Item by SKUId
+{ err: 404 }
+    ✔ get SKU Item by SKUId
+
+  POST /api/testDescriptor
+    ✔ api add a new testDescriptor
+
+  GET /api/testDescriptors
+    ✔ api get all test descriptors
+
+  GET /api/testDescriptors/:id
+    ✔ api get testDescriptor by id
+
+  PUT /api/testDescriptors/:id
+    ✔ api edit testDescriptor by id
+
+  DELETE /api/testDescriptors/:id
+{ err: 404 }
+{ err: 404 }
+    ✔ api delete testDescriptor by id
+
+  POST /api/skuitems/testResult
+    ✔ api add new testResult
+
+  GET /api/skuitems/:rfid/testResults
+    ✔ api get all testResult by rfid
+
+  GET /api/skuitems/:rfid/testResults/:id
+    ✔ api get testResult by id 
+
+  PUT /api/skuitems/:rfid/testResults/:id
+    ✔ api edit testResult by id and rfid
+
+  DELETE /api/skuitems/:rfid/testResults/:id
+{ err: 404 }
+{ err: 404 }
+    ✔ api delete testResult id and rfid
+
+  POST /api/newUser
+    ✔ api add new user (856ms)
+
+  GET /api/users
+    ✔ api get users without managers
+
+  GET /api/suppliers
+    ✔ api get users of type suppliers
+
+  GET /api/userinfo
+200
+    ✔ api get  data of user logged in 
+
+  POST /api/managerSession
+{ id: 1, name: 'francesco', username: 'test@ezwh.it' }
+    ✔ api login manager (142ms)
+
+  POST /api/customerSessions
+{ id: 2, name: 'francesco', username: 'test1@ezwh.it' }
+    ✔ api login customer (137ms)
+
+  POST /api/supplierSessions
+{ id: 3, name: 'francesco', username: 'test2@ezwh.it' }
+    ✔ api login supplier (132ms)
+
+  POST /api/clerkSessions
+{ id: 4, name: 'francesco', username: 'test3@ezwh.it' }
+    ✔ api login clerk (133ms)
+
+  POST /api/qualityEmployeeSessions
+{ id: 5, name: 'francesco', username: 'test4@ezwh.it' }
+    ✔ api login quality employee (132ms)
+
+  POST /api/deliveryEmployeeSessions
+{ id: 6, name: 'francesco', username: 'test5@ezwh.it' }
+    ✔ api login delivery employee (133ms)
+
+  POST /api/logout
+    ✔ api logout user
+
+  PUT /api/users/:username
+    ✔ api edit user
+
+  DELETE /api/users/:username/:type
+    ✔ api delete user
+
+
+  227 passing (12s)
+
